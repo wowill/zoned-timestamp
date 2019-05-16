@@ -52,9 +52,9 @@ console.log(format)
 ```
 <br>
 
-> 中国时间为 2019.5.15 18:00:00 （时间戳：1557914400000）时，此刻时间为 2019.5.15 15:30:00（时间戳：1557914400000）。所以下面根据中国时间 2019.5.15 18:00:00 （时间戳：1557914400000），计算出印度时间 2019.5.15 18:00:00 （时间戳：??????）
+> 中国时间为 2019.5.15 18:00:00 （时间戳：1557914400000）时，此刻印度时间为 2019.5.15 15:30:00（时间戳：1557914400000）。所以下面根据中国时间 2019.5.15 18:00:00 （时间戳：1557914400000），计算出印度时间 2019.5.15 18:00:00 （时间戳：??????）
 <br><br>
-When the time in China is 2019.5.15 18:00:00 (time stamp: 1557914400000), the time is 2019.5.15 15:30:00 (time stamp: 1557914400000). Therefore, according to China time 2019.5.15 18:00:00 (time stamp: 1557914400000), calculate the time of India 2019.5.15 18:00:00 (time stamp: ??????)
+When the time in China is 2019.5.15 18:00:00 (time stamp: 1557914400000), the time in India at the moment is 2019.5.15 15:30:00 (time stamp: 1557914400000). Therefore, according to China time 2019.5.15 18:00:00 (time stamp: 1557914400000), calculate the time of India 2019.5.15 18:00:00 (time stamp: ??????)
 
 ```bash
 const ZonedTimestamp = require('./index')
