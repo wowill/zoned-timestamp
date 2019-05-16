@@ -1,6 +1,6 @@
 {
   "name": "zoned-timestamp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "zoned-timestamp 是一个将某一刻的时间戳，转为特定时区的显示时间的工具.Zoned-timestamp is a tool that converts a certain timestamp to the display time of a specific time zone.",
   "main": "index.js",
   "keywords": [
@@ -16,7 +16,7 @@
     "url": "git+https://github.com/wowill/zoned-timestamp.git"
   },
   "author": "wowill",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wowill/zoned-timestamp/issues"
   },
