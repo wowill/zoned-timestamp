@@ -21,7 +21,7 @@ npm i -S zoned-timestamp
 ## Usage
 
 ```bash
-const ZonedTimestamp = require('./index')
+const ZonedTimestamp = require('zoned-timestamp')
 
 const INDIA_ZONE = -5.5
 
@@ -41,7 +41,7 @@ The following sample code was developed in Beijing, China (East 8 time zone)
 Change the time of China, Beijing (East 8 District), 209.5.15 18:00:00, to the time of India (East 5.5) at the same time in the world (ie 2019.5.15 15:30:00).
 
 ```bash
-const ZonedTimestamp = require('./index')
+const ZonedTimestamp = require('zoned-timestamp')
 
 const INDIA_ZONE = -5.5
 
@@ -57,7 +57,7 @@ console.log(format)
 When the time in China is 2019.5.15 18:00:00 (time stamp: 1557914400000), the time in India at the moment is 2019.5.15 15:30:00 (time stamp: 1557914400000). Therefore, according to China time 2019.5.15 18:00:00 (time stamp: 1557914400000), calculate the time of India 2019.5.15 18:00:00 (time stamp: ??????)
 
 ```bash
-const ZonedTimestamp = require('./index')
+const ZonedTimestamp = require('zoned-timestamp')
 
 const INDIA_ZONE = -5.5
 
